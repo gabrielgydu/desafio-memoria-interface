@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping API Test</title>
+    <script>
+        async function pingServer() {
+            try {
+                const response = await fetch('http://localhost:1234/ping');
+                const result = await response.json();
+                document.getElementById('apiResponse').innerText = result.data;
+            } catch (error) {
+                console.error('Error fetching from the API:', error);
+                document.getElementById('apiResponse').innerText = 'Error fetching response';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Teste da API Ping</h1>
+    <button onclick="pingServer()">Ping</button>
+    <h2 id="apiResponse"></h2>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "desafio-memoria-interface",
+  "version": "1.0.0",
+  "description": "Este tutorial guia você na configuração e execução de um servidor Node.js simples usando Express, que inclui uma API `/ping`.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
