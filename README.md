@@ -18,9 +18,9 @@ Antes de começar, certifique-se de que você tem o Node.js instalado em sua má
 
 ## Executando o Servidor
 
-1. **Iniciar o servidor**: No terminal, execute o comando `node server.js`. Isso iniciará o servidor na porta 3000.
+1. **Iniciar o servidor**: No terminal, execute o comando `node server.js`. Isso iniciará o servidor na porta 1234.
 
-2. **Testar a API**: Abra um navegador e acesse `http://localhost:3000/ping`. Se tudo estiver configurado corretamente, você verá a resposta "pong!".
+2. **Testar a API**: Abra um navegador e acesse `http://localhost:1234/ping`. Se tudo estiver configurado corretamente, você verá a resposta "pong!".
 
 ## Próximos Passos
 
